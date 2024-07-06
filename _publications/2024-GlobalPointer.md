@@ -1,0 +1,19 @@
+---
+title: "GlobalPointer: Large Scale Plane Adjustment with Bi-Convex Relaxation"
+collection: publications
+permalink: /publication/2024-GlobalPointer
+date: 2024-07-02
+venue: "ECCV"
+authors: " <b>Bangyan Liao*</b>, Zhenjun Zhao*, Lu Chen, Haoang Li, Daniel Cremers, Peidong Liu"
+url: 
+project: 
+bibtex: 
+arxiv: 
+openpdf: 
+supp: 
+teaser: images/2024_GlobalPointer.png
+videoresults: 
+videotalk: 
+poster: 
+code: 
+---

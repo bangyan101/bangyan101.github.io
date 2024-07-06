@@ -1,0 +1,10 @@
+@ARTICLE{10148802,
+  author={Qu, Delin and Liao, Bangyan and Zhang, Huiqing and Ait-Aider, Omar and Lao, Yizhen},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Fast Rolling Shutter Correction in the Wild}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-18},
+  doi={10.1109/TPAMI.2023.3284847}
+}

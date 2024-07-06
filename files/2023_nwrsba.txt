@@ -1,0 +1,7 @@
+@inproceedings{liao2023revisiting,
+    title={Revisiting Rolling Shutter Bundle Adjustment: Toward Accurate and Fast Solution},
+    author={Liao, Bangyan and Qu, Delin and Xue, Yifei and Zhang, Huiqing and Lao, Yizhen},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={4863--4871},
+    year={2023}
+}
