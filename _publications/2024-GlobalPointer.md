@@ -6,9 +6,9 @@ date: 2024-07-02
 venue: "ECCV"
 authors: " <b>Bangyan Liao*</b>, Zhenjun Zhao*, Lu Chen, Haoang Li, Daniel Cremers, Peidong Liu"
 url: 
-project: 
+project: https://bangyan101.github.io/GlobalPointer
 bibtex: 
-arxiv: 
+arxiv: https://arxiv.org/pdf/2407.13537
 openpdf: 
 supp: 
 teaser: images/2024_GlobalPointer.png
