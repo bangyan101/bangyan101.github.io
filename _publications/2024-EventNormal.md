@@ -7,9 +7,9 @@ venue: "ECCV"
 authors: "Zhongyang Ren1* , <b>Bangyan Liao*</b>, Delei Kong , Jinghang Li ,
 Peidong Liu , Laurent Kneip, Guillermo Gallego , Yi Zhou"
 url: 
-project: 
+project: https://nail-hnu.github.io/EvLinearSolver/
 bibtex: 
-arxiv: 
+arxiv: https://arxiv.org/pdf/2407.12239
 openpdf: 
 supp: 
 teaser: images/2024_EventNormal.png
