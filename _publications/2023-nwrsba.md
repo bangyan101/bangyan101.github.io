@@ -16,4 +16,5 @@ videoresults:
 videotalk: 
 poster: 
 code: https://github.com/DelinQu/NW-RSBA
+primal: true
 ---
