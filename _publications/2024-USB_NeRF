@@ -9,7 +9,7 @@ url:
 project: https://moyangli00.github.io/usb_nerf/
 bibtex: files/2024-USB_NeRF.txt
 arxiv: https://arxiv.org/abs/2310.02687
-openpdf:
+openpdf: https://openreview.net/pdf?id=igfDXfMvm5
 supp: 
 teaser: images/2024-USB_NeRF.png
 videoresults: 
