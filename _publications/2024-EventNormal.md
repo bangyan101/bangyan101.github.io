@@ -17,4 +17,5 @@ videoresults:
 videotalk: 
 poster: 
 code: 
+primal: true
 ---
