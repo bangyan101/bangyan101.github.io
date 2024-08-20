@@ -11,7 +11,7 @@ bibtex: files/2024-RS-1pt.txt
 arxiv:
 openpdf: https://ieeexplore.ieee.org/abstract/document/10620617
 supp: 
-teaser: images/2024-RS-1pt
+teaser: images/2024-RS-1pt.png
 videoresults: 
 videotalk: 
 poster: 
