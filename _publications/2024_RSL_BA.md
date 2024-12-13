@@ -7,7 +7,7 @@ venue: "ECCV"
 authors: " Yongcong Zheng∗ , <b>Bangyan Liao∗</b> , Yifei Xue, Chen Lu, Peidong Liu, Yizhen Lao"
 url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07643.pdf
 project: https://github.com/zhangtaxue/RSL-BA
-bibtex: 
+bibtex: files/2024_RSL_BA.txt
 arxiv: 
 openpdf: 
 supp: 
