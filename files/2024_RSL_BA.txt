@@ -1,0 +1,8 @@
+@inproceedings{zhang2025rsl,
+  title={RSL-BA: Rolling Shutter Line Bundle Adjustment},
+  author={Zhang, Yongcong and Liao, Bangyan and Xue, Yifei and Lu, Chen and Liu, Peidong and Lao, Yizhen},
+  booktitle={European Conference on Computer Vision},
+  pages={128--143},
+  year={2025},
+  organization={Springer}
+}
