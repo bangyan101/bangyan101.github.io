@@ -14,7 +14,7 @@ openpdf:
 supp: 
 teaser: images/2024_EventNormal.png
 videoresults: 
-videotalk: 
+videotalk: https://www.youtube.com/watch?v=2RzSa9pC-7A
 poster: 
 code: 
 primal: true
