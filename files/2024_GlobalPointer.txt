@@ -1,0 +1,8 @@
+@inproceedings{liao2025globalpointer,
+  title={GlobalPointer: Large-Scale Plane Adjustment with Bi-Convex Relaxation},
+  author={Liao, Bangyan and Zhao, Zhenjun and Chen, Lu and Li, Haoang and Cremers, Daniel and Liu, Peidong},
+  booktitle={European Conference on Computer Vision},
+  pages={360--376},
+  year={2025},
+  organization={Springer}
+}
