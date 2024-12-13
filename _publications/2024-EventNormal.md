@@ -8,7 +8,7 @@ authors: "Zhongyang Ren* , <b>Bangyan Liao*</b>, Delei Kong , Jinghang Li ,
 Peidong Liu , Laurent Kneip, Guillermo Gallego , Yi Zhou"
 url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07261.pdf
 project: https://nail-hnu.github.io/EvLinearSolver/
-bibtex: 
+bibtex: files/2024_EventNormal.txt
 arxiv: https://arxiv.org/pdf/2407.12239
 openpdf: 
 supp: 
