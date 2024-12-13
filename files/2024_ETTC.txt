@@ -1,0 +1,8 @@
+@inproceedings{li2025event,
+  title={Event-Aided Time-to-Collision Estimation for Autonomous Driving},
+  author={Li, Jinghang and Liao, Bangyan and Lu, Xiuyuan and Liu, Peidong and Shen, Shaojie and Zhou, Yi},
+  booktitle={European Conference on Computer Vision},
+  pages={57--73},
+  year={2025},
+  organization={Springer}
+}
