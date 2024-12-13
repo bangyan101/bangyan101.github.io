@@ -7,7 +7,7 @@ venue: "ECCV"
 authors: " <b>Bangyan Liao*</b>, Zhenjun Zhao*, Lu Chen, Haoang Li, Daniel Cremers, Peidong Liu"
 url: https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07675.pdf
 project: https://bangyan101.github.io/GlobalPointer
-bibtex: 
+bibtex: files/2024_GlobalPointer.txt
 arxiv: https://arxiv.org/pdf/2407.13537
 openpdf: 
 supp: 
