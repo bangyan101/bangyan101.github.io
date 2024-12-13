@@ -1,0 +1,8 @@
+@inproceedings{ren2025motion,
+  title={Motion and Structure from Event-based Normal Flow},
+  author={Ren, Zhongyang and Liao, Bangyan and Kong, Delei and Li, Jinghang and Liu, Peidong and Kneip, Laurent and Gallego, Guillermo and Zhou, Yi},
+  booktitle={European Conference on Computer Vision},
+  pages={108--125},
+  year={2025},
+  organization={Springer}
+}
