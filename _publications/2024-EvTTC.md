@@ -3,7 +3,7 @@ title: "EvTTC: An Event Camera Dataset for Time-to-Collision Estimation"
 collection: publications
 permalink: /publication/2024-EvTTC
 date: 2024-12-06
-venue: ""
+venue: "Arxiv"
 authors: "Kaizhen Sun*, Jinghang Li*, Kuan Dai, <b>Bangyan Liao</b>, Wei Xiong, Yi Zhou"
 url: 
 project: https://nail-hnu.github.io/EvTTC/
