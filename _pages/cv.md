@@ -11,7 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D in School of Engineering, Westlake University (in collaboration with Zhejiang University), 2028 (expected)
+* Ph.D in Westlake University / Zhejiang University
+  * School of Engineering
+  * 
+  * 2028 (expected)
 * B.S. in College of Electrical and Information Engineering, Hunan University, 2023
 
 Work experience
