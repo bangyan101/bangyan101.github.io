@@ -17,6 +17,9 @@ I also served as a reviewer for the **CVPR**, **AAAI**, **3DV**, **ICRA**, and *
 <style style="text/css"> .news{font-size:0.75em;} </style>
 {% include news.html %}
 
+## Notes
+<style style="text/css"> .news{font-size:0.75em;} </style>
+{% include notes.html %}
 
 ## Publications
 Selected publications I am a primary author on are highlighted.
