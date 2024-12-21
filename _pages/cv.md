@@ -33,21 +33,21 @@ Reviewing
 ======
 * ***[2023 - ]*** The IEEE / CVF Computer Vision and Pattern Recognition Conference (**CVPR**)
 * ***[2024 - ]*** The AAAI Conference on Artificial Intelligence (**AAAI**)
-* The International Conference on 3D Vision (3DV)
-  * 2024 -     
-* The IEEE International Conference on Robotics and Automation (ICRA)
-  * 2024 - 
-* The IEEE Robotics and Automation Letters (RAL)
-  * 2024 - 
+* ***[2024 - ]*** The International Conference on 3D Vision (**3DV**)
+* ***[2024 - ]*** The IEEE International Conference on Robotics and Automation (**ICRA**)
+* ***[2024 - ]*** The IEEE Robotics and Automation Letters (**RAL**)
 
 
 Student Mentoring
 ======
-* Yingping Zeng
-* Hao Li
-* Zhisheng Song
-* Han Xu
-
+* ***[2024.8 - ]*** Yingping Zeng
+  * co-surpervised master student with Prof. Yi Zhou from Hunan University
+* ***[2024.10 - ]*** Hao Li
+  * visiting student from Shandong University  
+* ***[2024.11 - ]*** Zhisheng Song
+  * visiting student from Shandong University  
+* ***[2024.7 - 2024.9]*** Han Xu
+  * visiting student from Hunan University  
 
 Research Interests
 ======
