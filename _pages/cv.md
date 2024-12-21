@@ -23,23 +23,15 @@ Education
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<style style="text/css"> .hoverTable{ width:85%; border-collapse:collapse; border: 0px; } .hoverTable td{ padding:7px; border:#4e95f4 0px solid; } /* Define the default color for all the table rows */ .hoverTable tr{} /* Define the hover highlight color for the table row */ .hoverTable tr:hover { background-color: #f7f7f7; } </style> {% for post in site.publications reversed %} {% include publication_subdir.html %} {% endfor %}
 
-Skills
-======
-* English Skills:
-  * IELTS: 6.5  CET-4: 623 CET-6: 490
-* Programming Skills:
-  * C++/C, Python, Matlab
 
+
+ 
   
 Reviewing
 ======
-* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
-  * 2023 -
+* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) [2023 - ]
 * The AAAI Conference on Artificial Intelligence (AAAI)
   * 2024 - 
 * The International Conference on 3D Vision (3DV)
@@ -48,3 +40,28 @@ Reviewing
   * 2024 - 
 * The IEEE Robotics and Automation Letters (RAL)
   * 2024 - 
+
+
+Student Mentoring
+======
+* Yingping Zeng
+* Hao Li
+* Zhisheng Song
+* Han xu
+
+
+Research Interests
+======
+* Multi-view Geometry Problems in 3D Computer Vision
+* Globally Optimal Outlier-Robust Optimization
+* Neural Optimal Transport / Deep Schrödinger Bridge
+* Diffusion Model / Flow Matching / Stochastic Interpolants
+* Stochastic Optimal Control / Reinforcement Learning / Mean-field Game 
+* Learning to Optimize / Representation Alignment 
+
+Skills
+======
+* English Skills:
+  * IELTS: 6.5  CET-4: 623 CET-6: 490
+* Programming Skills:
+  * C++/C, Python, Matlab
