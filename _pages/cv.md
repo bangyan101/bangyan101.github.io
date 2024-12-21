@@ -47,7 +47,7 @@ Student Mentoring
 * Yingping Zeng
 * Hao Li
 * Zhisheng Song
-* Han xu
+* Han Xu
 
 
 Research Interests
