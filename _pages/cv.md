@@ -27,17 +27,24 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Experience
+
+Skills
 ======
-* Computer Vision
-* Robotics
-* Skill 2
+* English Skills:
+  * IELTS: 6.5  CET-4: 623 CET-6: 490
+* Programming Skills:
+  * C++/C, Python, Matlab
 
   
 Reviewing
 ======
-* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)   <p align="right">2023 -  </p>
-* The AAAI Conference on Artificial Intelligence (AAAI)                      2024 - 
-* The International Conference on 3D Vision (3DV)                            2024 -     
-* The IEEE International Conference on Robotics and Automation (ICRA)        2024 - 
-* The IEEE Robotics and Automation Letters (RAL)                             2024 - 
+* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)
+  * 2023 -
+* The AAAI Conference on Artificial Intelligence (AAAI)
+  * 2024 - 
+* The International Conference on 3D Vision (3DV)
+  * 2024 -     
+* The IEEE International Conference on Robotics and Automation (ICRA)
+  * 2024 - 
+* The IEEE Robotics and Automation Letters (RAL)
+  * 2024 - 
