@@ -46,8 +46,7 @@ Student Mentoring
   * visiting student from Shandong University  
 * ***[2024.11 - ]*** Zhisheng Song
   * visiting student from Shandong University  
-* ***[2024.7 - 2024.9]*** Han Xu
-  * visiting student from Hunan University  
+
 
 Research Interests
 ======
