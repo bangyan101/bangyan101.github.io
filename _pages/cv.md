@@ -36,7 +36,7 @@ Experience
   
 Reviewing
 ======
-* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)   2023 -  
+* The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)   <p align="right">2023 -  </p>
 * The AAAI Conference on Artificial Intelligence (AAAI)                      2024 - 
 * The International Conference on 3D Vision (3DV)                            2024 -     
 * The IEEE International Conference on Robotics and Automation (ICRA)        2024 - 
