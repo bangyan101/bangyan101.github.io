@@ -13,9 +13,12 @@ Education
 ======
 * Ph.D in Westlake University / Zhejiang University
   * School of Engineering
-  * 
-  * 2028 (expected)
-* B.S. in College of Electrical and Information Engineering, Hunan University, 2023
+  * Computer Science and Technology
+  * 2023 - 2028 (expected)
+* B.S. in Hunan University
+  * College of Electrical and Information Engineering
+  * Automation
+  * 2019 - 2023
 
 Work experience
 ======
