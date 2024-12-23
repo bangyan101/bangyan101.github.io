@@ -14,7 +14,7 @@ Education
 * Ph.D in Westlake University / Zhejiang University
   * School of Engineering
   * Computer Science and Technology
-  * Supervisor: Prof. Peidong Liu
+  * Advisor: Prof. Peidong Liu
   * 2023 - 2028 (expected)
 * B.S. in Hunan University
   * College of Electrical and Information Engineering
