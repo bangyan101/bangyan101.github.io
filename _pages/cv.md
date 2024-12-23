@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-The pdf version of my [CV](files/cv.pdf). 
+The pdf version of my [CV](https://bangyan101.github.io/files/cv.pdf). 
 
 {% include base_path %}
 
