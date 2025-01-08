@@ -27,9 +27,4 @@ Selected publications I am a primary author on are highlighted.
 <style style="text/css"> .hoverTable{ width:85%; border-collapse:collapse; border: 0px; } .hoverTable td{ padding:7px; border:#4e95f4 0px solid; } /* Define the default color for all the table rows */ .hoverTable tr{} /* Define the hover highlight color for the table row */ .hoverTable tr:hover { background-color: #f7f7f7; } </style> {% for post in site.publications reversed %} {% include publications.html %} {% endfor %}
 
 
-## Map
-<html>
-  <body align="left">
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qAV0-2eA_hFGFxnKzH-baCfWdfkdo6_6-h7jXteq7lE&cl=ffffff&w=a"></script>
-  </body>
-</html>
+
