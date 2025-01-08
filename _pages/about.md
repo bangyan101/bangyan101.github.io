@@ -30,6 +30,6 @@ Selected publications I am a primary author on are highlighted.
 ## Map
 <html>
   <body align="left">
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qAV0-2eA_hFGFxnKzH-baCfWdfkdo6_6-h7jXteq7lE&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qAV0-2eA_hFGFxnKzH-baCfWdfkdo6_6-h7jXteq7lE&cl=ffffff&w=a"></script>
   </body>
 </html>
