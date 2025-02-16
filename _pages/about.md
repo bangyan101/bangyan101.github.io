@@ -11,7 +11,7 @@ I am currently a Ph.D. student since 2023, advised by [Prof.Peidong Liu](https:/
 
 Previously, I obtained my Bachelor's degree in the College of Electrical and Information Engineering from [Hunan University](http://www-en.hnu.edu.cn/), Changsha, China.
 
-I also served as a reviewer for the **CVPR**, **AAAI**, **3DV**, **ICRA**, and **RAL**.
+I also served as a reviewer for the **CVPR**, **ICCV**, **AAAI**, **3DV**, **ICRA**, and **RAL**.
 
 ## News
 <style style="text/css"> .news{font-size:0.75em;} </style>
