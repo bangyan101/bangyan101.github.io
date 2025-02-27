@@ -11,7 +11,7 @@ bibtex:
 arxiv: 
 openpdf: 
 supp: 
-teaser: images/2023_GlobustVP.png
+teaser: images/2025_GlobustVP.png
 videoresults: 
 videotalk: 
 poster: 
