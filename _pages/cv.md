@@ -34,6 +34,8 @@ Publications
 Reviewing
 ======
 * ***[2023 - ]*** The IEEE / CVF Computer Vision and Pattern Recognition Conference (**CVPR**)
+* ***[2025 - ]*** The International Conference on Computer Vision Conferenc (**ICCV**)
+* ***[2025 - ]*** The ACM Multimedia (**ACM MM**)
 * ***[2024 - ]*** The AAAI Conference on Artificial Intelligence (**AAAI**)
 * ***[2024 - ]*** The International Conference on 3D Vision (**3DV**)
 * ***[2024 - ]*** The IEEE International Conference on Robotics and Automation (**ICRA**)
