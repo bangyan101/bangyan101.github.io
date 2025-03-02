@@ -18,6 +18,5 @@ poster:
 code: 
 primal: true
 full_score: true
-oral: true
 ---
 
