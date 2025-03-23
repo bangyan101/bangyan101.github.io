@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GlobalPointer: Large-Scale Plane Adjustment with Bi-Convex Relaxation">
+  <meta name="keywords" content="Plane Adjustment · Semidefinite Programming (SDP) · Convex Relaxation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalPointer</title>
+
+  <!-- Bootstrap -->
+  <link href="static/css/bootstrap-4.4.1.css" rel="stylesheet">
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+ 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title" style="margin-bottom: 0"><strong>GlobalPointer</strong></h1>
+          <h2 class="title is-2 publication-title" style="margin-top: 0; margin-bottom: 0">Large-Scale Plane Adjustment</h2>
+          <h2 class="title is-2 publication-title" style="margin-top: 0">with Bi-Convex Relaxation</h2>
+          <div class="column is-full_width">
+            <h2 class="title is-4">ECCV 2024</h2>
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://bangyan101.github.io/">Bangyan Liao</a><sup>1,2*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://ericzzj1989.github.io/">Zhenjun Zhao</a><sup>3*</sup></span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a>Lu Chen</a><sup>4</sup>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://sites.google.com/view/haoangli/homepage/">Haoang Li</a><sup>5</sup>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://cvg.cit.tum.de/members/cremers">Daniel Cremers</a><sup>6</sup>
+            </span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block">
+              <a href="https://ethliup.github.io/">Peidong Liu</a><sup>2</sup>
+            </span>
+          </div>
+
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Zhejiang University</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>2</sup>Westlake University</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>3</sup>The Chinese University of Hong Kong</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>4</sup>Dreame Technology (Suzhou)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>5</sup>Hong Kong University of Science and Technology (Guangzhou)</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="author-block"><sup>6</sup>Technical University of Munich</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2407.13537.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!--
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              -->
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=myE7Epx_5zE"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+   
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/WU-CVGL/GlobalPointer/"
+                   class="external-link button is-normal is-rounded is-dark disabled">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+
+              <!-- Dataset Link. -->
+              <!--
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+              </span>
+              -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./resources/front.png" class="center">
+      <h2 class="subtitle has-text-centered" style="margin-top: 15px">
+        TL;DR: We propose a large-scale plane adjustment with linear time complexity, larger convergence region, and robustness to poor initialization, while achieving similar accuracy as prior methods.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Reconstructions</h2>
+
+        <div class="embed-responsive embed-responsive-16by9">
+
+          <iframe style="clip-path: inset(1px 1px)" src="https://sketchfab.com/playlists/embed?collection=abee3cc1a7a7436c804f2bd3aadc2acd" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" mozallowfullscreen="true" webkitallowfullscreen="true" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+        
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+-->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top: -30px">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Plane adjustment (PA) is crucial for many 3D applications,
+            involving simultaneous pose estimation and plane recovery. Despite recent advancements, it remains a challenging problem in the realm of
+            multi-view point cloud registration. Current state-of-the-art methods
+            can achieve globally optimal convergence only with good initialization.
+            Furthermore, their high time complexity renders them impractical for
+            large-scale problems. To address these challenges, we first exploit a novel
+            optimization strategy termed Bi-Convex Relaxation, which decouples
+            the original problem into two simpler sub-problems, reformulates each
+            sub-problem using a convex relaxation technique, and alternately solves
+            each one until the original problem converges. Building on this strategy, we propose two algorithmic variants for solving the plane adjustment problem, namely GlobalPointer and GlobalPointer++, based on
+            point-to-plane and plane-to-plane errors, respectively. Extensive experiments on both synthetic and real datasets demonstrate that our method
+            can perform large-scale plane adjustment with linear time complexity,
+            larger convergence region, and robustness to poor initialization, while
+            achieving similar accuracy as prior methods. 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Methodology. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="margin-top: -20px">Methodology</h2>
+
+        <img src="./resources/pipeline.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            Illustration of the proposed Bi-Convex Relaxation. Three blue circles
+            represent plane1, plane2, and plane3. Two yellow circles denote the LiDAR pose1 and
+            LiDAR pose2. The connection edges denote the observation relationships. Fixing the
+            planes leads to pose-only optimization (left), while fixing the LiDAR poses in planeonly optimization (right). Each sub-problem is then reformulated as SDP, which can be
+            solved with globally optimal guarantees. Using these techniques, the plane adjustment
+            algorithm alternately solves each sub-problem until the convergence of the original
+            problem.
+          </p>
+        </div>
+        <img src="./resources/alg1.png" class="center">
+        <img src="./resources/alg2.png" class="center">
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Experiments. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="margin-top: -20px">Experiments</h2>
+
+        <img src="./resources/exp1.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            Total optimization time analysis with increasing poses and planes.
+          </p>
+        </div>
+
+        <img src="./resources/exp2.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            Accuracy comparisons on the synthetic dataset under varying point cloud noise levels and pose initialization noise levels. The y axis represents the total point-to-plane error in the log10 scale. 
+          </p>
+        </div>
+
+        <img src="./resources/exp3.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            Relative time complexity comparisons. The x axis represents the number of planes and the y axis represents the number of poses. The color bar on the right side of each subplot indicates the mapping relationship between the multiplier of runtime growth and the colors.
+          </p>
+        </div>
+
+        <img src="./resources/exp4.png" class="center">
+        <div class="content has-text-justified">
+          <p style="margin-top: 30px">
+            Accuracy comparisons on the real dataset under varying pose initialization noise levels. The y axis represents the total point-to-plane error in the log10 scale.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{Liao2024GlobalPointer,
+  author    = {Liao, Bangyan and Zhao, Zhenjun and Chen, Lu and Li, Haoang and Cremers, Daniel and Liu, Peidong},
+  title     = {GlobalPointer: Large-Scale Plane Adjustment with Bi-Convex Relaxation},
+  journal   = {European Conference on Computer Vision (ECCV)},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Acknowledgements">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Acknowledgements</h2>
+    This work was supported in part by NSFC under Grant 62202389, in part by
+    a grant from the Westlake University-Muyuan Joint Research Institute, and in
+    part by the Westlake Education Foundation.
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            This webpage template is from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+          <p></p>
+        </div>
+      </div>
+</footer>
+
+</body>
+</html>
