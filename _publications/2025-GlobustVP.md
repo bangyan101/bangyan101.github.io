@@ -19,5 +19,6 @@ code:
 primal: true
 full_score: true
 oral: true
+award_candidate: true
 ---
 
