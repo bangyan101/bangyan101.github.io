@@ -100,7 +100,7 @@
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
-              <span class="link-block">
+<!--               <span class="link-block">
                 <a href="https://arxiv.org/pdf/2407.13537.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -108,20 +108,10 @@
                   </span>
                   <span>Paper</span>
                 </a>
-              </span>
-              <!--
-              <span class="link-block">
-                <a href=""
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              -->
+              </span> -->
+              
               <!-- Video Link. -->
-              <span class="link-block">
+<!--               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=myE7Epx_5zE"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -129,11 +119,11 @@
                   </span>
                   <span>Video</span>
                 </a>
-              </span>
+              </span> -->
    
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/WU-CVGL/GlobalPointer/"
+                <a href="https://github.com/WU-CVGL/GlobustVP/"
                    class="external-link button is-normal is-rounded is-dark disabled">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -167,7 +157,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="./resources/front.png" class="center">
+<!--       <img src="./resources/front.png" class="center"> -->
       <h2 class="subtitle has-text-centered" style="margin-top: 15px">
         TL;DR: We propose a large-scale plane adjustment with linear time complexity, larger convergence region, and robustness to poor initialization, while achieving similar accuracy as prior methods.
       </h2>
@@ -205,20 +195,13 @@
         <h2 class="title is-3" style="margin-top: -30px">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Plane adjustment (PA) is crucial for many 3D applications,
-            involving simultaneous pose estimation and plane recovery. Despite recent advancements, it remains a challenging problem in the realm of
-            multi-view point cloud registration. Current state-of-the-art methods
-            can achieve globally optimal convergence only with good initialization.
-            Furthermore, their high time complexity renders them impractical for
-            large-scale problems. To address these challenges, we first exploit a novel
-            optimization strategy termed Bi-Convex Relaxation, which decouples
-            the original problem into two simpler sub-problems, reformulates each
-            sub-problem using a convex relaxation technique, and alternately solves
-            each one until the original problem converges. Building on this strategy, we propose two algorithmic variants for solving the plane adjustment problem, namely GlobalPointer and GlobalPointer++, based on
-            point-to-plane and plane-to-plane errors, respectively. Extensive experiments on both synthetic and real datasets demonstrate that our method
-            can perform large-scale plane adjustment with linear time complexity,
-            larger convergence region, and robustness to poor initialization, while
-            achieving similar accuracy as prior methods. 
+            Determining the vanishing points (VPs) in a Manhattan world, as a fundamental task in many 3D vision applications, consists of jointly inferring the line-VP association and locating each VP.
+            Existing methods are, however, either sub-optimal solvers or pursuing global optimality at a significant cost of computing time.
+            In contrast to prior works, we introduce convex relaxation techniques to solve this task for the first time.
+            Specifically, we employ a ``soft'' association scheme, realized via a truncated multi-selection error, that allows for joint estimation of VPs' locations and line-VP associations.
+            This approach leads to a primal problem that can be reformulated into a quadratically constrained quadratic programming (QCQP) problem, which is then relaxed into a convex semidefinite programming (SDP) problem.
+            To solve this SDP problem efficiently, we present a globally optimal outlier-robust iterative solver (called \textbf{GlobustVP}), which independently searches for one VP and its associated lines in each iteration, treating other lines as outliers. After each independent update of all VPs, the mutual orthogonality between the three VPs in a Manhattan world is reinforced via local refinement.
+            Extensive experiments on both synthetic and real-world data demonstrate that \textbf{GlobustVP} achieves a favorable balance between efficiency, robustness, and global optimality compared to previous works. The code is publicly available at https://github.com/WU-CVGL/GlobustVP/.
           </p>
         </div>
       </div>
