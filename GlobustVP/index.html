@@ -160,9 +160,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-<!--       <img src="./resources/front.png" class="center"> -->
+       <img src="./resources/front.png" class="center">
       <h2 class="subtitle has-text-centered" style="margin-top: 15px">
-        TL;DR: We propose a large-scale plane adjustment with linear time complexity, larger convergence region, and robustness to poor initialization, while achieving similar accuracy as prior methods.
+        TL;DR: For the first time, we apply convex relaxation techniques to vanishing point estimation and line association problems. This enables us to obtain globally optimal solutions with relatively low computational resources.
       </h2>
     </div>
   </div>
@@ -203,8 +203,8 @@
             In contrast to prior works, we introduce convex relaxation techniques to solve this task for the first time.
             Specifically, we employ a ``soft'' association scheme, realized via a truncated multi-selection error, that allows for joint estimation of VPs' locations and line-VP associations.
             This approach leads to a primal problem that can be reformulated into a quadratically constrained quadratic programming (QCQP) problem, which is then relaxed into a convex semidefinite programming (SDP) problem.
-            To solve this SDP problem efficiently, we present a globally optimal outlier-robust iterative solver (called \textbf{GlobustVP}), which independently searches for one VP and its associated lines in each iteration, treating other lines as outliers. After each independent update of all VPs, the mutual orthogonality between the three VPs in a Manhattan world is reinforced via local refinement.
-            Extensive experiments on both synthetic and real-world data demonstrate that \textbf{GlobustVP} achieves a favorable balance between efficiency, robustness, and global optimality compared to previous works. The code is publicly available at https://github.com/WU-CVGL/GlobustVP/.
+            To solve this SDP problem efficiently, we present a globally optimal outlier-robust iterative solver (called <b>GlobustVP</b>), which independently searches for one VP and its associated lines in each iteration, treating other lines as outliers. After each independent update of all VPs, the mutual orthogonality between the three VPs in a Manhattan world is reinforced via local refinement.
+            Extensive experiments on both synthetic and real-world data demonstrate that <b>GlobustVP</b> achieves a favorable balance between efficiency, robustness, and global optimality compared to previous works. The code is publicly available at https://github.com/WU-CVGL/GlobustVP/.
           </p>
         </div>
       </div>
