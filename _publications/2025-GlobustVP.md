@@ -8,7 +8,7 @@ authors: " <b>Bangyan Liao*</b>, Zhenjun Zhao*, Haoang Li, Yi Zhou, Yingping Zen
 url: 
 project: 
 bibtex: 
-arxiv: 
+arxiv: https://arxiv.org/pdf/2505.04788
 openpdf: 
 supp: 
 teaser: images/2025_GlobustVP.png
