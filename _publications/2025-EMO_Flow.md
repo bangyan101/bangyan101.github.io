@@ -11,7 +11,7 @@ bibtex: files/2025-EMO_Flow.txt
 arxiv: https://arxiv.org/abs/2510.12753
 openpdf: https://openreview.net/forum?id=05f6PdEPs2
 supp: 
-teaser: images/2025-EMO_Flow.pdf
+teaser: images/2025-EMO_Flow.png
 videoresults: 
 videotalk: 
 poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/120349.png?t=1764687851.6400867
