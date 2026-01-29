@@ -5,11 +5,11 @@ permalink: /publication/2025-GlobustVP
 date: 2025-02-27
 venue: "CVPR"
 authors: " <b>Bangyan Liao*</b>, Zhenjun Zhao*, Haoang Li, Yi Zhou, Yingping Zeng, Hao Li, Peidong Liu"
-url: https://openaccess.thecvf.com/content/CVPR2025/papers/Liao_Convex_Relaxation_for_Robust_Vanishing_Point_Estimation_in_Manhattan_World_CVPR_2025_paper.pdf
+url: 
 project: 
-bibtex: 
+bibtex: files/2025-GlobustVP.txt
 arxiv: https://arxiv.org/pdf/2505.04788
-openpdf: 
+openpdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Liao_Convex_Relaxation_for_Robust_Vanishing_Point_Estimation_in_Manhattan_World_CVPR_2025_paper.pdf
 supp: 
 teaser: images/2025_GlobustVP.png
 videoresults: 
