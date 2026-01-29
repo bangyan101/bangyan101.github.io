@@ -1,0 +1,7 @@
+@article{zhang2024ego,
+  title={Ego-motion Estimation for Vehicles with a Rolling Shutter Camera},
+  author={Zhang, Yongcong and Liao, Bangyan and Qu, Delin and Wu, Junde and Lu, Xinyu and Li, Wanting and Xue, Yifei and Lao, Yizhen},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2024},
+  publisher={IEEE}
+}
