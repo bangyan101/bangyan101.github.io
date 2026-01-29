@@ -1,0 +1,6 @@
+@article{li2025moflow,
+  title={E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization},
+  author={Li, Wenpu and Liao, Bangyan and Zhou, Yi and Xu, Qi and Wan, Pian and Liu, Peidong},
+  journal={arXiv preprint arXiv:2510.12753},
+  year={2025}
+}
