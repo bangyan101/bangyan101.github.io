@@ -4,19 +4,18 @@ collection: publications
 permalink: /publication/2025-EMO_Flow
 date: 2025-09-12
 venue: "NeurIPS"
-authors: "Yufei Huang, <b>Bangyan Liao</b>, Yuqi Hu, Haitao Lin, Lirong Wu, Siyuan Li, Cheng Tan, Zicheng Liu, Yunfan Liu, Zelin Zang, Chang Yu, Zhen Lei"
 authors: "Wenpu Li*, <b>Bangyan Liao*</b>, Yi Zhou, Qi Xu, Pian Wan, Peidong Liu"
 url: https://akawincent.github.io/EMoFlow/
 project: https://akawincent.github.io/EMoFlow/
-bibtex: 
+bibtex: files/2025-EMO_Flow.txt
 arxiv: https://arxiv.org/abs/2510.12753
-openpdf: 
+openpdf: https://openreview.net/forum?id=05f6PdEPs2
 supp: 
 teaser: images/2025-EMO_Flow.png
 videoresults: 
 videotalk: 
-poster: 
+poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202025/120349.png?t=1764687851.6400867
 code: https://github.com/WU-CVGL/E-MoFlow
-primal: false
+primal: true
 ---
 
