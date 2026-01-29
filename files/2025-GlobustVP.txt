@@ -1,0 +1,7 @@
+@inproceedings{liao2025convex,
+  title={Convex Relaxation for Robust Vanishing Point Estimation in Manhattan World},
+  author={Liao, Bangyan and Zhao, Zhenjun and Li, Haoang and Zhou, Yi and Zeng, Yingping and Li, Hao and Liu, Peidong},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={15823--15832},
+  year={2025}
+}
