@@ -1,0 +1,22 @@
+---
+title: "E-MoFlow: Learning Egomotion and Optical Flow from Event Data via Implicit Regularization"
+collection: publications
+permalink: /publication/2025-EMO_Flow
+date: 2025-09-12
+venue: "NeurIPS"
+authors: "Yufei Huang, <b>Bangyan Liao</b>, Yuqi Hu, Haitao Lin, Lirong Wu, Siyuan Li, Cheng Tan, Zicheng Liu, Yunfan Liu, Zelin Zang, Chang Yu, Zhen Lei"
+authors: "Wenpu Li*, <b>Bangyan Liao*</b>, Yi Zhou, Qi Xu, Pian Wan, Peidong Liu"
+url: https://akawincent.github.io/EMoFlow/
+project: https://akawincent.github.io/EMoFlow/
+bibtex: 
+arxiv: https://arxiv.org/abs/2510.12753
+openpdf: 
+supp: 
+teaser: images/2025-EMO_Flow.png
+videoresults: 
+videotalk: 
+poster: 
+code: https://github.com/WU-CVGL/E-MoFlow
+primal: false
+---
+
