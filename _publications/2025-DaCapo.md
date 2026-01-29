@@ -7,9 +7,9 @@ venue: "CVPR"
 authors: "Yufei Huang, <b>Bangyan Liao</b>, Yuqi Hu, Haitao Lin, Lirong Wu, Siyuan Li, Cheng Tan, Zicheng Liu, Yunfan Liu, Zelin Zang, Chang Yu, Zhen Lei"
 url: 
 project: 
-bibtex: 
+bibtex: files/2025-DaCapo.txt
 arxiv: 
-openpdf: 
+openpdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Huang_DaCapo_Score_Distillation_as_Stacked_Bridge_for_Fast_and_High-quality_CVPR_2025_paper.pdf
 supp: 
 teaser: images/2025_DaCapo.png
 videoresults: 
