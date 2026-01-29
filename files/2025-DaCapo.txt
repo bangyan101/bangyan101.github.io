@@ -1,0 +1,7 @@
+@inproceedings{huang2025dacapo,
+  title={DaCapo: Score Distillation as Stacked Bridge for Fast and High-quality 3D Editing},
+  author={Huang, Yufei and Liao, Bangyan and Hu, Yuqi and Lin, Haitao and Wu, Lirong and Li, Siyuan and Tan, Cheng and Liu, Zicheng and Liu, Yunfan and Zang, Zelin and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={16304--16313},
+  year={2025}
+}
