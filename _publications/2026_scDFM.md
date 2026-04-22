@@ -8,13 +8,13 @@ authors: "Chenglei Yu*, Chuanrui Wang*, <b>Bangyan Liao</b>, Tailin Wu"
 url: 
 project: 
 bibtex: files/2026_scDFM.txt
-arxiv: 
+arxiv: https://arxiv.org/abs/2602.07103
 openpdf: https://openreview.net/forum?id=QSGanMEcUV
 supp: 
 teaser: images/2026_scDFM.png
 videoresults: 
-videotalk: 
+videotalk: https://www.youtube.com/watch?v=T4vNEsp7eLs&feature=youtu.be
 poster: 
-code: 
+code: https://github.com/AI4Science-WestlakeU/scDFM
 primal: false
 ---
