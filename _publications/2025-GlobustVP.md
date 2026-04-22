@@ -13,7 +13,7 @@ openpdf: https://openaccess.thecvf.com/content/CVPR2025/papers/Liao_Convex_Relax
 supp: 
 teaser: images/2025_GlobustVP.png
 videoresults: 
-videotalk: 
+videotalk: https://www.youtube.com/watch?v=q51jp4Px3Kg&feature=youtu.be
 poster: 
 code: https://github.com/WU-CVGL/GlobustVP
 primal: true
